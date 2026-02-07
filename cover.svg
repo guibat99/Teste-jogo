@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1224"/>
+      <stop offset="1" stop-color="#12407a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <circle cx="960" cy="140" r="120" fill="#fca311" opacity=".35"/>
+  <path d="M0 560 L280 420 L470 500 L710 360 L1200 560 L1200 675 L0 675 Z" fill="#061226" opacity=".8"/>
+  <text x="70" y="180" fill="#f9fafb" font-size="80" font-family="Arial, sans-serif" font-weight="700">BATTLE ROYALE</text>
+  <text x="70" y="260" fill="#fca311" font-size="92" font-family="Arial, sans-serif" font-weight="900">MOBILE 3D</text>
+  <text x="72" y="320" fill="#dbeafe" font-size="32" font-family="Arial, sans-serif">loot • combate • zona segura • bots • vitória</text>
+  <rect x="70" y="380" width="360" height="88" rx="16" fill="#fca311"/>
+  <text x="140" y="438" fill="#111" font-size="46" font-family="Arial, sans-serif" font-weight="800">PLAY NOW</text>
+</svg>
