@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Battle Royale Mobile 3D</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="app">
+      <section id="cover" class="screen active">
+        <img src="cover.svg" alt="Capa do jogo" class="cover-art" />
+        <h1>Battle Royale Mobile 3D</h1>
+        <p>
+          Protótipo completo inspirado em battle royale: drop, loot, combate, zona segura,
+          bots, vitória e derrota.
+        </p>
+        <button id="startBtn" class="primary">Iniciar Partida</button>
+      </section>
+
+      <section id="hud" class="hidden">
+        <div class="top-bar">
+          <div>Vida: <span id="health">100</span></div>
+          <div>Escudo: <span id="shield">0</span></div>
+          <div>Munição: <span id="ammo">30</span></div>
+          <div>Jogadores: <span id="alive">0</span></div>
+        </div>
+
+        <canvas id="minimap" width="140" height="140"></canvas>
+
+        <div id="events"></div>
+
+        <div id="mobileControls">
+          <div id="joystickBase"><div id="joystickStick"></div></div>
+          <div class="right-actions">
+            <button id="shootBtn">Atirar</button>
+            <button id="healBtn">Kit</button>
+            <button id="jumpBtn">Pular</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="result" class="screen hidden">
+        <h2 id="resultTitle"></h2>
+        <p id="resultText"></p>
+        <button id="restartBtn" class="primary">Jogar Novamente</button>
+      </section>
+    </main>
+
+    <script type="module" src="game.js"></script>
+  </body>
+</html>
